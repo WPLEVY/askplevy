@@ -1,1 +1,1 @@
-Upload index.html to the root of the repo. This revised version uses one photo only, includes Plevy Law branding, adds client feedback placeholders, and has no external file dependencies.
+Upload index.html to the root of the repo. This version fixes the photo crop, uses william@askplevy.com, clarifies credentials, and updates anonymized client feedback.
