@@ -1,16 +1,24 @@
-William Plevy premium law firm site
+const header = document.querySelector("[data-header]");
+const toggle = document.querySelector("[data-menu-toggle]");
+const menu = document.querySelector("[data-menu]");
 
-Files:
-- index.html
-- styles.css
-- script.js
-- assets/william-plevy-1200.jpg
-- assets/william-plevy-700.jpg
-- assets/william-plevy-square.jpg
+if (toggle && menu) {
+  toggle.addEventListener("click", () => {
+    const open = menu.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(open));
+  });
 
-To publish:
-1. Upload the folder contents to Netlify, Vercel, GitHub Pages, or any static web host.
-2. Replace the placeholder phone number in index.html.
-3. Replace wplevy@gmail.com if you want a firm-domain email.
-4. Update any credentials, school, or bar details as desired.
-5. Review disclaimers and ethics/compliance language before publication.
+  menu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
+
+let lastY = 0;
+window.addEventListener("scroll", () => {
+  const y = window.scrollY || 0;
+  if (header) header.classList.toggle("is-scrolled", y > 12);
+  lastY = y;
+}, { passive: true });
