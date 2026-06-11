@@ -1,1 +1,1 @@
-Upload this index.html to replace the prior version. This removes the test banner, improves the PL monogram, cleans the client feedback section, and keeps the one-file deployment.
+V2: William B. Plevy authority/SEO profile site. Upload all files inside this ZIP to the repo root.
