@@ -1,1 +1,1 @@
-Upload ONLY index.html to the root of your GitHub repo. Delete styles.css, script.js, and image files if you want. This one file contains everything.
+Upload index.html to the root of the repo. This revised version uses one photo only, includes Plevy Law branding, adds client feedback placeholders, and has no external file dependencies.
