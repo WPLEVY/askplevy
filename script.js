@@ -1,4 +1,3 @@
-const header = document.querySelector("[data-header]");
 const toggle = document.querySelector("[data-menu-toggle]");
 const menu = document.querySelector("[data-menu]");
 
@@ -15,10 +14,3 @@ if (toggle && menu) {
     });
   });
 }
-
-let lastY = 0;
-window.addEventListener("scroll", () => {
-  const y = window.scrollY || 0;
-  if (header) header.classList.toggle("is-scrolled", y > 12);
-  lastY = y;
-}, { passive: true });

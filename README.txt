@@ -1,21 +1,19 @@
-PLEVY LAW WEBSITE - DRAG AND DROP ROOT FILES
+UPLOAD INSTRUCTIONS
 
-Upload ALL of these files to the root of the GitHub repository:
+Delete the current files in your GitHub repo first.
 
+Then upload every file inside this ZIP to the root of the repo.
+
+The root should show:
 index.html
 styles.css
 script.js
+.nojekyll
 william-plevy-1200.jpg
 william-plevy-700.jpg
 william-plevy-square.jpg
 william-plevy-profile.jpg
-.nojekyll
+README.txt
 
-Do not upload the folder itself. Open the ZIP, select all files inside, and drag them into GitHub.
-
-For GitHub Pages:
-Settings > Pages > Deploy from a branch > main > /root > Save.
-
-For Vercel:
-Import the GitHub repo. No build command needed. Output directory should be blank/root.
-
+Important: do NOT copy the visible webpage text into index.html.
+index.html must start with <!doctype html>.
