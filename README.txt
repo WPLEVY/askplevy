@@ -1,1 +1,1 @@
-Upload index.html. It has a visible top banner that says VERSION 3 — POLISHED REVISION. If you do not see that banner live, Vercel/GitHub is not using this file.
+Upload this index.html to replace the prior version. This removes the test banner, improves the PL monogram, cleans the client feedback section, and keeps the one-file deployment.
